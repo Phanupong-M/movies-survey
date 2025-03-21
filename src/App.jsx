@@ -1,7 +1,7 @@
 import './App.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import FormPage from './components/FormPage'
-import ResultPage from './components/ResultPage';
+import FormPage from './pages/FormPage';
+import ResultPage from './pages/ResultPage';
 
 
 function App() {
