@@ -1,11 +1,18 @@
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import FormPage from './pages/FormPage';
+import ResultPage from './pages/ResultPage';
+
 
 function App() {
 
   return (
-    <>
-      <h1 className='font-bold text-3xl'>Start project</h1>
-    </>
+    <Router>
+    <Routes>
+      <Route path="/" element={<FormPage />} />
+      <Route path="/result" element={<ResultPage />} />
+    </Routes>
+  </Router>
   )
 }
 
