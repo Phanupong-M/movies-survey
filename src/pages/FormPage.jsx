@@ -152,13 +152,13 @@ function FormPage() {
                     <div className="flex justify-between">
                         <button
                             onClick={resetForm}
-                            className="bg-red-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-red-600 transition duration-300 cursor-pointer"
+                            className="bg-white text-black px-4 py-2 rounded-lg shadow-md hover:bg-gray-100 transition duration-300 cursor-pointer"
                             type="button"
                         >
                             <FontAwesomeIcon icon={faRotateRight} className="mr-2" /> รีเซ็ต
                         </button>
                         <button
-                            className="bg-green-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-green-600 transition duration-300 cursor-pointer"
+                            className="bg-gradient-to-r from-purple-700 to-blue-700 text-white px-4 py-2 rounded-lg shadow-md transition duration-300 cursor-pointer"
                             type="submit"
                         >
                             <FontAwesomeIcon icon={faPaperPlane} className="mr-2" /> ส่งแบบสำรวจ

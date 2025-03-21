@@ -16,7 +16,7 @@ function InputField({ label, type, value, onChange, placeholder, error, required
             ) : (
                 <input
                 className={`w-full border rounded-lg p-2 focus:outline-none focus:ring-2 ${
-                    error ? "border-red-500" : "border-gray-300 focus:ring-purple-500"
+                    error ? "border-red-500" : "border-gray-300"
                 }`}
                     type={type}
                     placeholder={placeholder}
